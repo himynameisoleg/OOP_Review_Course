@@ -12,8 +12,8 @@ files:
       length: 77
       offset: 473
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       ((ChildPatient)bart).setTemperature(101.2);
               maggie.setTemperature(100.1);
@@ -28,8 +28,8 @@ files:
       length: 120
       offset: 584
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       homer.addJob("Nuclear Engineer");
               homer.addJob("Major");
@@ -46,7 +46,7 @@ files:
       offset: 774
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       this.patients[0] = bart;
               this.patients[1] = (ChildPatient) lisa;
@@ -176,7 +176,7 @@ files:
       offset: 63
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '    default boolean hasFever(){return this.getTemperature()>100.4;}'
   - offset: 241
     length: 121
@@ -187,7 +187,7 @@ files:
       offset: 241
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |2-
           void setSystolic(int s);
           void setDiastolic(int d);
@@ -220,7 +220,7 @@ files:
       offset: 54
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |2
        extends Person implements Diagnosticable,Employable{
           double temperature;
@@ -312,5 +312,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Compilation Failed
+  time: Sun, 24 Jan 2021 21:19:01 UTC
 record: -1
