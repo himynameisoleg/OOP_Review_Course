@@ -1,7 +1,8 @@
-public class ChildPatient extends Person implements Diagnosticable{
+public class ChildPatient extends Person implements Diagnosticable {
     double temperature;
     int systolic;
     int diastolic;
+
     @Override
     public double getTemperature() {
         return temperature;
